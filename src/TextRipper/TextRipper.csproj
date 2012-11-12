@@ -115,6 +115,27 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Content Include="binaries\abiword\AbiWord.exe" />
+    <Content Include="binaries\abiword\bz2-1.dll" />
+    <Content Include="binaries\abiword\LibAbiWord.dll" />
+    <Content Include="binaries\abiword\libenchant.dll" />
+    <Content Include="binaries\abiword\libfribidi-0.dll" />
+    <Content Include="binaries\abiword\libgcrypt-11.dll" />
+    <Content Include="binaries\abiword\libgio-2.0-0.dll" />
+    <Content Include="binaries\abiword\libglib-2.0-0.dll" />
+    <Content Include="binaries\abiword\libgmodule-2.0-0.dll" />
+    <Content Include="binaries\abiword\libgnutls-26.dll" />
+    <Content Include="binaries\abiword\libgobject-2.0-0.dll" />
+    <Content Include="binaries\abiword\libgpg-error-0.dll" />
+    <Content Include="binaries\abiword\libgsf-1-114.dll" />
+    <Content Include="binaries\abiword\libgthread-2.0-0.dll" />
+    <Content Include="binaries\abiword\libintl-8.dll" />
+    <Content Include="binaries\abiword\libjpeg-62.dll" />
+    <Content Include="binaries\abiword\libpng12-0.dll" />
+    <Content Include="binaries\abiword\libsoup-2.4-1.dll" />
+    <Content Include="binaries\abiword\libwv-1-2-4.dll" />
+    <Content Include="binaries\abiword\libxml2-2.dll" />
+    <Content Include="binaries\abiword\zlib1.dll" />
     <Content Include="binaries\xpdf-3.02pl5-win32\pdffonts.exe" />
     <Content Include="binaries\xpdf-3.02pl5-win32\pdffonts.txt" />
     <Content Include="binaries\xpdf-3.02pl5-win32\pdfimages.exe" />
@@ -130,6 +151,7 @@
     <Content Include="binaries\xpdf-3.02pl5-win32\xpdfrc.txt" />
     <Content Include="Content\Images\title.png" />
     <Content Include="Global.asax" />
+    <Content Include="upload\8d2da2f4-95f3-487c-91ad-8c3f995bdd70.txt" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -142,7 +164,6 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="upload\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
@@ -157,7 +178,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="binaries\abiword\abiword" />
     <None Include="binaries\xpdf-3.02pl5-win32\ANNOUNCE" />
     <None Include="binaries\xpdf-3.02pl5-win32\CHANGES" />
     <None Include="binaries\xpdf-3.02pl5-win32\COPYING" />
